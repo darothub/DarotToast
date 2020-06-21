@@ -14,11 +14,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
-class ActivityToastExt(){
-    fun add(first:Int, second:Int):Int{
-        return first + second
-    }
-}
+
 fun Activity.getGdToastLayout(): View {
     val layout by lazy {
         LayoutInflater.from(this).inflate(
